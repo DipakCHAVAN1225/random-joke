@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#main{
+  background-color: #dadada;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.head span{
+  font-size: 5vw;
+  font-weight: 900;
+  line-height: 1;
+  text-align: center;
+  font-family: "Spicy Rice", serif;
+
+}
+.head :nth-child(1){
+  color: rgb(189, 24, 183);;
+}
+.head :nth-child(4){
+  color: rgb(94, 92, 92);
+}
+.head :nth-child(2){
+  color: rgb(13, 186, 230);
+}
+.container{
+  border-radius:30px;
+  background-color: #f3f3f3;
+  box-shadow: 3px 3px 5px #000;
+  width: 40vw;
+  height: 35vw;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  -ms-border-radius:30px;
+  -o-border-radius:30px;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.joke{
+  transition: all 0.1s linear;
+  position: absolute;
+  left: 2%;
+  width: 95%;
+  font-size: 20px;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: #f8f5f5;
+  font-family: sans-serif;
+  font-weight: 200;
+  background-color: rgb(189, 24, 183);
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.1s linear;
+  -ms-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+}
+p{
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 20px; 
+  font-size: 20px;
+  color: #f8f5f5;
+  font-family: sans-serif;
+  font-weight: 200;
+
+}
+button{
+    padding: 30px 70px;
+    margin: 3vw;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background-color: rgb(13, 186, 230);
+    border: none;
+    box-shadow: 3px 3px 5px #000;
+    color: #dadada;
+}
